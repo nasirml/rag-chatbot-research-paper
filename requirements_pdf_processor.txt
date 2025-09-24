@@ -1,0 +1,33 @@
+# Requirements for PDF Research Paper Processing System
+# Install with: pip install -r requirements.txt
+
+# PDF processing libraries
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0  # fitz
+
+# Text processing and NLP
+nltk>=3.8
+sentence-transformers>=2.2.0
+
+# Vector database
+chromadb>=0.4.0
+
+# LLM APIs
+anthropic>=0.7.0  # Claude API
+openai>=1.0.0     # OpenAI API (optional alternative)
+
+# Scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+pathlib2>=2.3.7  # For older Python versions compatibility
+python-dotenv>=1.0.0  # For environment variables
+
+# Optional: For better performance
+torch>=2.0.0  # PyTorch for sentence-transformers
+transformers>=4.30.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+jupyter>=1.0.0
